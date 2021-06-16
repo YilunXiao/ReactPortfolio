@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header.js'
+import Container from './components/Container.js'
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Container />
     </div>
   );
 }
