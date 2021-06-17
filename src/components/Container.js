@@ -8,7 +8,7 @@ import Resume from './pages/Resume';
 
 
 const Container = () => {
-    const headerText = 'Header Hello';
+    const headerText = 'Yilun Xiao';
     // State variable to decide page to be rendered, default to home page
     const [currentPage, setCurrentPage] = useState('AboutMe');
 
