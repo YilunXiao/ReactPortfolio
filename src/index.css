@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1%;
+  padding: 1%;
+  width: calc(85% - 1%);
+}
+
+.card {
+  margin: 5px;
+  flex: 0 0 calc(50% - 10px);
+  height: 200px;
+  border: 5px solid aquamarine;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-main {
+  flex: 0 0 calc(100% - 10px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.card:hover .overlay {
+  opacity: 0.5;
+}

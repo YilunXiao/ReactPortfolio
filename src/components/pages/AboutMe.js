@@ -7,7 +7,7 @@ const AboutMe = () => {
                 <h1 className="display-4">Biography</h1>
                 <div >
                     <div className="card" style={{width: "18rem", float: "right"}}>
-                        <img className="card-img-top" src=".../100px180/" alt="profile pic"></img>
+                        <img className="card-img-top" src="" alt="profile pic"></img>
                         <div className="card-body">
                             <h5 className="card-title">Profile</h5>
                             <div className="card-text">
